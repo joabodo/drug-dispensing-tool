@@ -2,22 +2,27 @@
 <html lang="en">
 <head>
   <title>Home Page</title>
-
-  <link rel="stylesheet" href="../styles/styles1.css">
-
+  <link rel="stylesheet" href="../styles/landing.css">
+  <style>
+    body {
+      background-image: url("../assets/images/hero_1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
     <header>
       <div class="header-content">
-        <h1 class="logo"><img src="images/logo.png" alt="">MedSource</h1>
+        <h1 class="logo"><img src="../assets/images/logo.png" alt="">MedSource</h1>
         <nav>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="buy.html">Buy</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
+            <li><a href="login.php">Login</a></li>
           </ul>
         </nav>
       </div>
@@ -51,34 +56,33 @@
 <section class="testimonials">
   <h2>Testimonials</h2>
   <div class="testimonial">
-    <img src="images/person_1.jpg" alt="Testimonial Avatar">
+    <img src="../assets/images/person_1.jpg" alt="Testimonial Avatar">
     <blockquote>
       <p>"MedSource has been a lifesaver! Their fast delivery service is incredible, and I always receive my medications on time. The 24/7 support is truly commendable; the team is so helpful and understanding. I highly recommend their medication dispensing service, it has made managing my prescriptions so much easier."</p>
-      <cite>John Doe</cite>
+      <cite>Jane Smith</cite>
     </blockquote>
   </div>
   <div class="testimonial">
-    <img src="images/person_2.jpg" alt="Testimonial Avatar">
+    <img src="../assets/images/person_2.jpg" alt="Testimonial Avatar">
     <blockquote>
-      <p>"I am beyond impressed with MedSource's fast and reliable delivery. I had an emergency situation, and they delivered the medication within hours. The 24/7 support was there to guide me through the process, and their assistance was invaluable. I feel secure knowing that my health is in good hands with QuickMedRx's medication dispensing."</p>
-      <cite>Jane Smith</cite>
+      <p>"I am beyond impressed with MedSource's fast and reliable delivery. I had an emergency situation, and they delivered the medication within hours. The 24/7 support was there to guide me through the process, and their assistance was invaluable. I feel secure knowing that my health is in good hands with MedSource's medication dispensing."</p>
+      <cite>John Doe</cite>
     </blockquote>
   </div>
 </section>
 <!-- ... Rest of the code ... -->
 
     <footer>
-
-      <p>&copy; 2023 MedSource. All rights reserved.</p>
-      <p><a href="./register.php?user_type=patient">User Register Here</a></p>
-      <p><a href="./register.php?user_type=admin">Admin Register Here</a></p>
+      <p class="got"><a href="./register.php?user_type=patient">User register</a></p>
+      <p><a href="./register.php?user_type=admin">Admin register</a></p>
       <p><a href="./login.php?user_type=patient">User Login</a></p>
       <p><a href="./login.php?user_type=doctor">Doctor Login</a></p>
       <p><a href="./login.php?user_type=pharmacist">Pharmacist Login</a></p>
       <p><a href="./login.php?user_type=admin">Admin Login</a></p>
       <p><a href="./admin.php">Admin Page</a></p>
       <p>Sign Up</p>
-      <p>&copy; 2023 My Website. All rights reserved.</p>
+      <p>&copy; 2023 MedSource. All rights reserved.</p>
+
     </footer>
   </div>
 </body>
